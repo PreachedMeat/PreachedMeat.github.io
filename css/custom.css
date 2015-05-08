@@ -1,0 +1,97 @@
+/*Google fonts import*/
+@import url(http://fonts.googleapis.com/css?family=Raleway);
+@import url(http://fonts.googleapis.com/css?family=Roboto+Slab);
+
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.navbar {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900;
+}
+
+.navbar-brand img {
+    height: 60px;
+    width: inherit;
+
+}
+
+ul.nav {
+    font-size: 1.6em;
+}
+
+.jumbotron {
+    text-align: center;
+    background: url("../img/forest2.png") no-repeat center center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.jumbotron > * {
+    font-family: 'Raleway', sans-serif;
+    color: #eeeef6;
+}
+
+.jumbotron h1 {
+    padding-bottom: 30px;
+
+}
+
+.jumbotron .container {
+    margin-top: 0;
+
+
+}
+
+.jumbotron .img {
+    height: 100px;
+    width: inherit%;
+}
+
+.jumbotron p {
+    padding: 30px;
+    font-weight: 200;
+    font-size: 2em;
+
+}
+
+.btn-lg {
+    font-size: 1.5em;
+}
+
+.landing {
+    text-align: center;
+}
+
+.landing hr{
+    border-top: #D9534F solid 1px;
+    margin-top: 15px;
+    width: 250px;
+
+}
+
+.landing  h1,h2 {
+    color: #d9534f;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.landing p{
+    font-size: 1.3em;
+
+}
+
+.landing a{
+    color: #D9534F;
+    font-size: 1.0em;
+
+}
+
+.emphasis {
+    color: #d9534f;
+    font-size: 1.1em;
+}
